@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dados</title>
+    
+    <!-- Tipos de fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+     <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>¡Juguemos a los dados!</h1>
+
+      <div class="dado1">
+        <p>Jugador 1</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+
+      <div class="dado2">
+        <p>Jugador 2</p>
+        <img class="img2" src="images/dice6.png">
+      </div> 
+
+        <div id ="walter" class="animacion" style="display: none;">
+        <img class="TapGif" src="images/victoria.gif" alt="walter">
+      </div>
+
+      <div id ="empate" class="animacion" style="display: none;">
+      <img class="TapGif" id="empate" src="images/empate.gif" alt="empate">
+     </div>
+      
+      </div>
+
+       <div class="btn"> 
+        <h2>Empieza a jugar</h2>
+      <a href="#" class="myButton" onclick="random()">JUGAR</a>
+
+  
+    </div>
+
+    <footer id="footer">
+      <p>© Copyright 2022 Alexander</p>
+    </footer>
+
+    <script src="index.js"></script>
+      </body>      
+    </html>
