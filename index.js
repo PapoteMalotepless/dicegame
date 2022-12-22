@@ -12,7 +12,7 @@ document.querySelector(".img2").setAttribute("src",aleatorio2);
 if(randomNumber1 > randomNumber2){
     document.querySelector("h1").textContent="🚩¡El jugador 1 gana!";
     document.querySelector("h2").textContent="¿Otra más?";
-    const audioElement1 = new Audio("./sounds/victoria.mp3");
+    const audioElement1 = new Audio("sounds/victoria.mp3");
     audioElement1.play();
     div = document.getElementById('walter');
     div.style.display = '';
@@ -23,7 +23,7 @@ if(randomNumber1 > randomNumber2){
     else if (randomNumber1 < randomNumber2){
         document.querySelector("h1").textContent="🚩¡El jugador 2 gana!";
         document.querySelector("h2").textContent="¿Otra más?";
-        const audioElement2 = new Audio("./sounds/victoria.mp3");
+        const audioElement2 = new Audio("sounds/victoria.mp3");
         audioElement2.play();
         div = document.getElementById("walter");
         div.style.display = '';
@@ -34,7 +34,7 @@ if(randomNumber1 > randomNumber2){
 else if (randomNumber1 === randomNumber2){
     document.querySelector("h1").textContent="🚩¡EMPATE!";
     document.querySelector("h2").textContent="Desempatamos ¿no?";
-    const audioElement3 = new Audio("./sounds/empatado.mp3");
+    const audioElement3 = new Audio("sounds/empatado.mp3");
     audioElement3.play();
     div = document.getElementById('empate');
     div.style.display = '';
